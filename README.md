@@ -51,5 +51,13 @@ etcd3 - https://github.com/mixer/etcd3
 etcd3 examples - https://github.com/mixer/etcd3/tree/master/test
 
 
+## misc: commands
 
+```bash
+
+ETCDCTL_API=3 etcdctl get "/" --from-key --keys-only=false -w fields | grep -i "value\|key"     # show all keys and values start with '/'
+
+ETCDCTL_API=3 etcdctl put "/v1/conf/mcs50/conf-dev-simulator-and-etc/csv/protocol2/电 - 包.csv" "base64(电 - 包.csv)"     # create key value pair
+
+```
 
