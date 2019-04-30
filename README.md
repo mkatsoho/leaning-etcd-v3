@@ -59,5 +59,7 @@ ETCDCTL_API=3 etcdctl get "/" --from-key --keys-only=false -w fields | grep -i "
 
 ETCDCTL_API=3 etcdctl put "/v1/conf/mcs50/conf-dev-simulator-and-etc/csv/protocol2/电 - 包.csv" "base64(电 - 包.csv)"     # create key value pair
 
+ETCDCTL_API=3 etcdctl snapshot save ./conf_db.etcd      # save etcd's snapshot to a file, and ignore change history
+
 ```
 
