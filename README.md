@@ -24,8 +24,11 @@ https://speakerdeck.com/benbjohnson/raft-the-understandable-distributed-consensu
 **Suggested reading**
 
 Most commands except auth, in Chinese - https://www.jianshu.com/p/36429db7f398
+
 Basic auth, in Chinese - https://cloud.tencent.com/developer/article/1380947
+
 Backup and restore, in Chinese - https://cloud.tencent.com/info/7e40936e15a2ec21379855ab3a3e9eb2.html
+
 Commands, in English - https://coreos.com/etcd/docs/latest/dev-guide/interacting_v3.html
 
 
