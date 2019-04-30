@@ -36,8 +36,13 @@ Commands, in English - https://coreos.com/etcd/docs/latest/dev-guide/interacting
 
 https://github.com/etcd-io/etcd/tree/master/Documentation
 
+## avoid to use etcd API v2
 
-## etcd v3 SDK in nodejs
+NOTE: v2 data store is isolated with v3 data store even in the same etcd instance. Read this to understand the difference. **In short, just use v3 API**
+
+https://coreos.com/etcd/docs/latest/op-guide/v2-migration.html
+
+## etcd API v3 SDK in nodejs
 
 etcd3 - https://github.com/mixer/etcd3
 
