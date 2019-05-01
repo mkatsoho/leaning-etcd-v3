@@ -31,6 +31,8 @@ Backup and restore, in Chinese - https://cloud.tencent.com/info/7e40936e15a2ec21
 
 Commands, in English - https://coreos.com/etcd/docs/latest/dev-guide/interacting_v3.html
 
+User scenarios, in Chinese - https://www.cnblogs.com/softidea/p/6517959.html
+
 
 **Officail Documents**
 
